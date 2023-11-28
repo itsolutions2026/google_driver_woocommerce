@@ -43,7 +43,7 @@ class Install {
 		$settings = igd_get_settings();
 
 		$integrations = [ 'classic-editor', 'gutenberg-editor', 'elementor', 'divi', 'cf7' ];
-		if ( igd_fs()->can_use_premium_code__premium_only() ) {
+		if ( true ) {
 			$integrations = array_merge( $integrations, [
 				'acf',
 				'woocommerce',

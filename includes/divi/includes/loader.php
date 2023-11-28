@@ -8,7 +8,7 @@ if ( ! class_exists( 'ET_Builder_Element' ) ) {
 
 $module_files = glob( __DIR__ . '/modules/*/*.php' );
 
-$is_pro = igd_fs()->can_use_premium_code__premium_only();
+$is_pro = true;
 
 // Load custom Divi Builder modules
 foreach ( (array) $module_files as $module_file ) {

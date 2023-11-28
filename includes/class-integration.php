@@ -41,7 +41,7 @@ class Integration {
 			}
 		} );
 
-		if ( igd_fs()->can_use_premium_code__premium_only() ) {
+		if ( true ) {
 
 			// Load EDD integration
 			if ( $this->is_active( 'edd' ) ) {

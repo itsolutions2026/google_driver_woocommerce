@@ -171,9 +171,6 @@ $features = [
                 your website.','integrate-google-drive'); ?></p>
         </div>
 
-        <div class="cta-btn">
-            <a href="<?php echo igd_fs()->get_upgrade_url(); ?>" class="igd-btn btn-primary"><?php esc_html_e('Upgrade Now','integrate-google-drive'); ?></a>
-        </div>
 
     </div>
 

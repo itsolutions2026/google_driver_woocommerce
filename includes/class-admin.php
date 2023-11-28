@@ -25,10 +25,10 @@ class Admin {
 		//admin body class
 		add_filter( 'admin_body_class', [ $this, 'admin_body_class' ] );
 
-		if ( igd_fs()->can_use_premium_code__premium_only() ) {
+
 			//Handle custom app authorization
-			add_action( 'admin_init', [ $this, 'app_authorization__premium_only' ] );
-		}
+        add_action( 'admin_init', [ $this, 'app_authorization__premium_only' ] );
+
 
 	}
 
@@ -149,7 +149,7 @@ class Admin {
 		];
 
 		// Check statistics access
-		if ( ! igd_fs()->can_use_premium_code__premium_only() || ! igd_get_settings( 'enableStatistics', false ) ) {
+		if ( ! igd_get_settings( 'enableStatistics', false ) ) {
 			unset( $access_rights['statistics'] );
 		}
 

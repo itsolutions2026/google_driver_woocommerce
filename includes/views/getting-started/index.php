@@ -84,7 +84,7 @@ defined( 'ABSPATH' ) || exit;
                 <span><?php esc_html_e( 'Help', 'integrate-google-drive' ); ?></span>
             </div>
 
-			<?php if ( ! igd_fs()->can_use_premium_code__premium_only() ) { ?>
+			<?php if ( ! true ) { ?>
                 <div class="menu-item" data-target="get-pro">
                     <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_1126_11058)">
@@ -111,7 +111,7 @@ defined( 'ABSPATH' ) || exit;
 		<?php include_once IGD_INCLUDES . '/views/getting-started/data-privacy.php'; ?>
 		<?php include_once IGD_INCLUDES . '/views/getting-started/help.php'; ?>
 		<?php
-		if ( ! igd_fs()->can_use_premium_code__premium_only() ) {
+		if ( ! true ) {
 			include_once IGD_INCLUDES . '/views/getting-started/get-pro.php';
 		}
 		?>

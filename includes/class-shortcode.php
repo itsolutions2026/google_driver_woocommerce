@@ -230,7 +230,7 @@ class Shortcode {
 
 	private function check_use_private_folders() {
 
-		if ( igd_fs()->can_use_premium_code__premium_only() ) {
+		if ( true ) {
 			if ( in_array( $this->type, [ 'browser', 'uploader', 'gallery', 'media', 'search', 'slider', 'embed' ] ) ) {
 				$all_folders     = ! empty( $this->data['allFolders'] );
 				$private_folders = ! empty( $this->data['privateFolders'] );
@@ -624,7 +624,7 @@ class Shortcode {
 
 	public function enqueue_scripts() {
 
-		if ( igd_fs()->can_use_premium_code__premium_only() ) {
+		if ( true ) {
 			if ( 'media' == $this->type ) {
 				wp_enqueue_style( 'igd-plyr' );
 				wp_enqueue_script( 'igd-plyr' );

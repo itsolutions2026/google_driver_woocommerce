@@ -14,11 +14,7 @@ class Update_1_1_1 {
 	public function update_settings() {
 		$settings = get_option('igd_settings');
 
-		if(igd_fs()->can_use_premium_code__premium_only()){
-			$settings['integrations'] = [ 'classic-editor', 'gutenberg-editor', 'elementor', 'woocommerce', 'edd', 'cf7', 'wpforms', 'gravityforms' ];
-		}else {
-			$settings['integrations'] = [ 'classic-editor', 'gutenberg-editor', 'elementor', 'cf7' ];
-		}
+        $settings['integrations'] = [ 'classic-editor', 'gutenberg-editor', 'elementor', 'woocommerce', 'edd', 'cf7', 'wpforms', 'gravityforms' ];
 
 		update_option('igd_settings', $settings);
 	}

@@ -265,7 +265,7 @@ class Ajax {
 			}
 		}
 
-		if ( igd_fs()->can_use_premium_code__premium_only() ) {
+		if ( true ) {
 			if ( ! empty( $events ) ) {
 				if ( ! class_exists( 'IGD\Statistics' ) ) {
 					require_once IGD_INCLUDES . '/class-statistics__premium_only.php';
@@ -312,7 +312,7 @@ class Ajax {
 		}
 
 		// Events
-		if ( igd_fs()->can_use_premium_code__premium_only() ) {
+		if ( true ) {
 			if ( 'all' == $type || 'events' == $type ) {
 				if ( ! class_exists( 'IGD\Statistics' ) ) {
 					require_once IGD_INCLUDES . '/class-statistics__premium_only.php';

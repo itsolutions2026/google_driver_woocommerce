@@ -19,7 +19,7 @@ class Elementor {
 		add_action( 'elementor/elements/categories_registered', [ $this, 'add_categories' ] );
 		add_action( 'elementor/widgets/register', [ $this, 'register_widgets' ] );
 
-		if ( igd_fs()->can_use_premium_code__premium_only() ) {
+		if ( true ) {
 
 			// Register elementor form fields
 			if ( in_array( 'elementor-form', igd_get_settings( 'integrations', [] ) ) ) {
@@ -415,7 +415,7 @@ class Elementor {
 		}
 
 		//Pro Widgets
-		if ( igd_fs()->can_use_premium_code__premium_only() ) {
+		if ( true ) {
 			include_once IGD_INCLUDES . '/elementor/class-elementor-browser-widget__premium_only.php';
 			include_once IGD_INCLUDES . '/elementor/class-elementor-uploader-widget__premium_only.php';
 			include_once IGD_INCLUDES . '/elementor/class-elementor-media-widget__premium_only.php';

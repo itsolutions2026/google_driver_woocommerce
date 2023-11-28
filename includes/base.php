@@ -30,18 +30,16 @@ final class Main {
 		$this->include_class( 'class-integration' );
 
 		// Pro files
-		if ( igd_fs()->can_use_premium_code__premium_only() ) {
-			$this->include_class( 'class-notifications__premium_only' );
-			$this->include_class( 'class-importer__premium_only' );
+        $this->include_class( 'class-notifications__premium_only' );
+        $this->include_class( 'class-importer__premium_only' );
 
-			if ( igd_get_settings( 'enableStatistics', false ) ) {
-				$this->include_class( 'class-statistics__premium_only' );
+        if ( igd_get_settings( 'enableStatistics', false ) ) {
+            $this->include_class( 'class-statistics__premium_only' );
 
-				if ( igd_get_settings( 'emailReport', false ) ) {
-					$this->include_class( 'class-email-report__premium_only' );
-				}
-			}
-		}
+            if ( igd_get_settings( 'emailReport', false ) ) {
+                $this->include_class( 'class-email-report__premium_only' );
+            }
+        }
 
 		// Admin includes
 		if ( is_admin() ) {

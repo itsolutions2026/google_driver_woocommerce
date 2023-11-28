@@ -17,24 +17,7 @@ class Blocks {
 	}
 
 	public function add_pro_styles() {
-
-		if ( ! igd_fs()->can_use_premium_code__premium_only() ) { ?>
-			<style>
-				.editor-block-list-item-igd-browser:after,
-				.editor-block-list-item-igd-uploader:after,
-				.editor-block-list-item-igd-media:after,
-				.editor-block-list-item-igd-slider:after,
-				.editor-block-list-item-igd-search:after {
-					content: '\f160';
-					font-family: 'dashicons', serif;
-					font-size: 20px;
-					color: #eaeaea;
-					position: absolute;
-					top: 5px;
-					right: 5px;
-				}
-			</style>
-		<?php }
+	    
 	}
 
 	public function register_block() {
@@ -53,7 +36,7 @@ class Blocks {
 			'view',
 		];
 
-		$blocks = igd_fs()->can_use_premium_code__premium_only() ? array_merge($pro_blocks, $free_blocks) : array_merge($free_blocks, $pro_blocks);
+		$blocks = true ? array_merge($pro_blocks, $free_blocks) : array_merge($free_blocks, $pro_blocks);
 
 		// Add 'shortcodes' at the beginning of the array
 		array_unshift($blocks, 'shortcodes');

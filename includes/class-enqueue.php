@@ -26,7 +26,7 @@ class Enqueue {
 		wp_register_style( 'lightgallery', IGD_ASSETS . '/vendor/lightgallery/css/lightgallery-bundle.css', [], IGD_VERSION );
 		wp_style_add_data( 'lightgallery', 'rtl', 'replace' );
 
-		if ( igd_fs()->can_use_premium_code__premium_only() ) {
+		if ( true ) {
 			// Slick Slider CSS
 			wp_register_style( 'igd-slick-theme', IGD_ASSETS . '/vendor/slick/slick-theme.css', [], IGD_VERSION );
 			wp_register_style( 'igd-slick', IGD_ASSETS . '/vendor/slick/slick.css', [ 'igd-slick-theme' ], IGD_VERSION );
@@ -84,7 +84,7 @@ class Enqueue {
 		wp_register_script( 'igd-react-tooltip', IGD_ASSETS . '/vendor/react-tooltip.js', [ 'wp-element' ], IGD_VERSION, true );
 		$js_deps[] = 'igd-react-tooltip';
 
-		if ( igd_fs()->can_use_premium_code__premium_only() ) {
+		if ( true ) {
 			// Slider
 			wp_register_script( 'igd-slick', IGD_ASSETS . '/vendor/slick/slick.js', [ 'wp-element', ], IGD_VERSION, true );
             $js_deps[] = 'igd-slick';
@@ -215,7 +215,7 @@ class Enqueue {
 		// TinyMCE Editor
 		wp_enqueue_editor();
 
-		if ( igd_fs()->can_use_premium_code__premium_only() ) {
+		if ( true ) {
 
 			// Statistics page scripts
 			if ( ! empty( $admin_pages['statistics_page'] ) && $admin_pages['statistics_page'] === $hook ) {
@@ -265,8 +265,7 @@ class Enqueue {
 			'homeUrl'       => home_url(),
 			'ajaxUrl'       => admin_url( 'admin-ajax.php' ),
 			'nonce'         => wp_create_nonce( 'wp_rest' ),
-			'isPro'         => igd_fs()->can_use_premium_code__premium_only(),
-			'upgradeUrl'    => igd_fs()->get_upgrade_url(),
+			'isPro'         => true,
 			'accounts'      => Account::instance()->get_accounts(), //do not create a new instance
 			'activeAccount' => Account::instance()->get_active_account(), //do not create a new instance
 			'settings'      => igd_get_settings(),
@@ -375,7 +374,7 @@ class Enqueue {
 			$admin_pages[] = 'contact_page_wpcf7-new';
 		}
 
-		if ( igd_fs()->can_use_premium_code__premium_only() ) {
+		if ( true ) {
 
 			if ( $integration->is_active( 'gravityforms' ) ) {
 				$admin_pages[] = 'toplevel_page_gf_edit_forms';
