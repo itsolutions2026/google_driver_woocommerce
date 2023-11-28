@@ -1,26 +1,20 @@
 <?php
 
 defined( 'ABSPATH' ) || exit;
+
+
 ?>
 
 <div class="igd-getting-started">
     <div class="getting-started-header">
 
         <div class="header-logo">
-            <img src="<?php 
-echo  esc_url( IGD_ASSETS . '/images/integrate-google-drive-logo.png' ) ;
-?>" alt="Integrate Google Drive">
-            <span><?php 
-esc_html_e( 'Integrate Google Drive', 'integrate-google-drive' );
-?></span>
+            <img src="<?php echo esc_url(IGD_ASSETS . '/images/integrate-google-drive-logo.png'); ?>" alt="Integrate Google Drive">
+            <span><?php esc_html_e( 'Integrate Google Drive', 'integrate-google-drive' ); ?></span>
         </div>
-        <p><?php 
-esc_html_e( 'Complete Google Drive Integration for WordPress', 'integrate-google-drive' );
-?></p>
+        <p><?php esc_html_e( 'Complete Google Drive Integration for WordPress', 'integrate-google-drive' ); ?></p>
 
-        <h2 class="header-title"><?php 
-esc_html_e( 'Getting Started', 'integrate-google-drive' );
-?></h2>
+        <h2 class="header-title"><?php esc_html_e( 'Getting Started', 'integrate-google-drive' ); ?></h2>
 
     </div>
 
@@ -33,9 +27,7 @@ esc_html_e( 'Getting Started', 'integrate-google-drive' );
                           d="M19.6004 9.9999C19.6004 12.546 18.589 14.9878 16.7886 16.7881C14.9883 18.5885 12.5465 19.5999 10.0004 19.5999C7.45431 19.5999 5.01252 18.5885 3.21217 16.7881C1.41182 14.9878 0.400391 12.546 0.400391 9.9999C0.400391 7.45382 1.41182 5.01203 3.21217 3.21168C5.01252 1.41133 7.45431 0.399902 10.0004 0.399902C12.5465 0.399902 14.9883 1.41133 16.7886 3.21168C18.589 5.01203 19.6004 7.45382 19.6004 9.9999V9.9999ZM11.2004 5.1999C11.2004 5.51816 11.074 5.82339 10.8489 6.04843C10.6239 6.27347 10.3187 6.3999 10.0004 6.3999C9.68213 6.3999 9.37691 6.27347 9.15186 6.04843C8.92682 5.82339 8.80039 5.51816 8.80039 5.1999C8.80039 4.88164 8.92682 4.57642 9.15186 4.35137C9.37691 4.12633 9.68213 3.9999 10.0004 3.9999C10.3187 3.9999 10.6239 4.12633 10.8489 4.35137C11.074 4.57642 11.2004 4.88164 11.2004 5.1999ZM8.80039 8.7999C8.48213 8.7999 8.17691 8.92633 7.95186 9.15137C7.72682 9.37642 7.60039 9.68164 7.60039 9.9999C7.60039 10.3182 7.72682 10.6234 7.95186 10.8484C8.17691 11.0735 8.48213 11.1999 8.80039 11.1999V14.7999C8.80039 15.1182 8.92682 15.4234 9.15186 15.6484C9.37691 15.8735 9.68213 15.9999 10.0004 15.9999H11.2004C11.5187 15.9999 11.8239 15.8735 12.0489 15.6484C12.274 15.4234 12.4004 15.1182 12.4004 14.7999C12.4004 14.4816 12.274 14.1764 12.0489 13.9514C11.8239 13.7263 11.5187 13.5999 11.2004 13.5999V9.9999C11.2004 9.68164 11.074 9.37642 10.8489 9.15137C10.6239 8.92633 10.3187 8.7999 10.0004 8.7999H8.80039Z"
                           fill="#4D4D4D"/>
                 </svg>
-                <span><?php 
-esc_html_e( 'Introduction', 'integrate-google-drive' );
-?></span>
+                <span><?php esc_html_e( 'Introduction', 'integrate-google-drive' ); ?></span>
             </div>
 
             <div class="menu-item" data-target="what-new">
@@ -43,9 +35,7 @@ esc_html_e( 'Introduction', 'integrate-google-drive' );
                     <path d="M4.09836 20.4924C3.37761 20.4719 2.78595 20.2061 2.31261 19.6845C1.36595 18.621 0.645201 17.4349 0.161114 16.1259C-0.172369 15.2261 -0.0217641 14.3671 0.752776 13.7536C1.94686 12.8026 1.9361 11.1869 0.752776 10.2461C-0.0217641 9.6121 -0.172369 8.73268 0.171871 7.82258C0.655959 6.53413 1.38747 5.35816 2.32337 4.31513C2.95807 3.60954 3.79715 3.30277 4.73305 3.61977C6.38971 4.17197 7.7344 3.21074 7.99258 1.82003C8.15394 0.940606 8.79939 0.388412 9.7353 0.214573C11.2306 -0.0717499 12.7259 -0.0717499 14.2212 0.204347C15.1894 0.388412 15.781 0.981509 16.0392 1.88138C16.491 3.48684 17.5345 4.05948 19.2234 3.59932C20.2024 3.33345 21.0307 3.58909 21.6869 4.31513C22.6443 5.36839 23.3651 6.56481 23.8384 7.87371C24.1719 8.77358 23.9782 9.58142 23.2467 10.2563C22.0096 11.4016 22.0096 12.5674 23.2575 13.7433C23.9782 14.4182 24.1719 15.2261 23.8491 16.1362C23.3651 17.4655 22.612 18.662 21.6439 19.7254C21.0092 20.4106 20.2024 20.6458 19.2664 20.4003C17.5452 19.9402 16.5018 20.5026 16.0392 22.1387C15.781 23.0488 15.1894 23.6215 14.2212 23.8055C12.7474 24.0714 11.2629 24.0816 9.78908 23.8055C8.82091 23.6215 8.21849 23.0386 7.97106 22.1387C7.53001 20.5333 6.48653 19.9606 4.7976 20.4106C4.56093 20.4515 4.34578 20.5026 4.09836 20.4924ZM16.5233 12.5674C16.5018 12.7412 16.5018 12.8537 16.4803 12.9662C15.8671 15.4715 13.1992 16.9133 10.5959 16.1566C9.76757 15.9214 9.1759 16.1566 8.95 16.8315C8.7456 17.4553 9.1006 18.0075 9.89666 18.2325C12.3063 18.9176 14.5009 18.5086 16.4372 16.9951C18.5887 15.3181 19.4386 12.3731 18.5242 9.91888C18.2122 9.09058 17.3409 8.76336 16.7062 9.2951C15.9424 9.9291 15.2324 10.6347 14.5439 11.3505C14.1674 11.7493 14.2427 12.3628 14.63 12.7412C15.0172 13.1196 15.6304 13.1809 16.1037 12.8844C16.2328 12.8026 16.3512 12.7003 16.5233 12.5674ZM7.47622 11.4221C7.48698 11.2789 7.48698 11.1971 7.49773 11.1153C8.05712 8.60997 10.7357 7.09655 13.3175 7.81236C13.5219 7.87371 13.7263 7.94529 13.9415 7.94529C14.4901 7.96574 14.9742 7.57716 15.0818 7.04542C15.1894 6.51368 14.8559 6.01261 14.2319 5.79787C11.7147 4.90822 8.61651 5.67516 6.82001 7.69987C5.14184 9.59165 4.69002 11.7391 5.48608 14.1012C5.76577 14.9295 6.66941 15.2363 7.3041 14.6943C8.05712 14.0603 8.7456 13.3752 9.43408 12.6798C9.8106 12.2913 9.76757 11.7084 9.42333 11.3198C9.06833 10.921 8.48742 10.8085 8.01409 11.0539C7.85273 11.1357 7.70213 11.2687 7.47622 11.4221Z"
                           fill="#4D4D4D"/>
                 </svg>
-                <span><?php 
-esc_html_e( 'Changelog', 'integrate-google-drive' );
-?></span>
+                <span><?php esc_html_e( 'Changelog', 'integrate-google-drive' ); ?></span>
             </div>
 
             <div class="menu-item" data-target="basic-usage">
@@ -61,9 +51,7 @@ esc_html_e( 'Changelog', 'integrate-google-drive' );
                     <path d="M14.0909 15.2002C14.6344 15.7531 15.1498 16.2685 15.6934 16.8214C15.103 17.0182 14.5032 17.2431 13.8847 17.4212C13.5848 17.5055 13.4161 17.215 13.538 16.8496C13.716 16.2966 13.9128 15.7531 14.0909 15.2002Z"
                           fill="#4D4D4D"/>
                 </svg>
-                <span><?php 
-esc_html_e( 'Basic Usage', 'integrate-google-drive' );
-?></span>
+                <span><?php esc_html_e( 'Basic Usage', 'integrate-google-drive' ); ?></span>
             </div>
             <div class="menu-item" data-target="data-privacy">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -72,9 +60,7 @@ esc_html_e( 'Basic Usage', 'integrate-google-drive' );
                     <path d="M18.8633 12.7918C18.776 14.7866 18.5017 16.744 17.7288 18.6017C16.7064 21.0703 14.8862 22.7284 12.5049 23.8256C11.9438 24.0874 11.3952 24.0251 10.8342 23.7633C7.53031 22.2297 5.68512 19.6116 4.9994 16.0833C4.73758 14.7118 4.63784 13.3279 4.5381 11.944C4.47577 11.0339 5.01187 10.4355 5.93447 10.4105C7.60512 10.3482 9.15109 9.86195 10.535 8.93936C11.3329 8.40325 12.0934 8.41572 12.9038 8.95182C14.3002 9.87442 15.8337 10.3607 17.5168 10.4105C18.4643 10.4355 18.988 11.0214 18.9381 11.9814C18.9132 12.2557 18.8758 12.53 18.8633 12.7918ZM9.87421 15.1482C9.53758 15.1108 9.31317 15.2978 9.17603 15.5721C9.02641 15.8838 9.10122 16.183 9.3381 16.4199C9.762 16.8438 10.2108 17.2552 10.6347 17.6666C11.0586 18.0656 11.4701 18.0656 11.8815 17.6542C12.6046 16.9435 13.3277 16.2204 14.0508 15.5097C14.4124 15.1482 14.4997 14.7492 14.1256 14.3752C13.7391 13.9887 13.3402 14.1009 12.9786 14.45C12.4924 14.9362 11.9937 15.3975 11.5199 15.8962C11.2706 16.1581 11.1334 16.1331 10.8841 15.8962C10.5973 15.5846 10.3729 15.1731 9.87421 15.1482Z"
                           fill="#4D4D4D"/>
                 </svg>
-                <span><?php 
-esc_html_e( 'Data Privacy', 'integrate-google-drive' );
-?></span>
+                <span><?php esc_html_e( 'Data Privacy', 'integrate-google-drive' ); ?></span>
             </div>
 
             <div class="menu-item" data-target="help">
@@ -95,13 +81,10 @@ esc_html_e( 'Data Privacy', 'integrate-google-drive' );
                     </defs>
                 </svg>
 
-                <span><?php 
-esc_html_e( 'Help', 'integrate-google-drive' );
-?></span>
+                <span><?php esc_html_e( 'Help', 'integrate-google-drive' ); ?></span>
             </div>
 
-			<?php 
-?>
+			<?php if ( ! igd_fs()->can_use_premium_code__premium_only() ) { ?>
                 <div class="menu-item" data-target="get-pro">
                     <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_1126_11058)">
@@ -116,33 +99,22 @@ esc_html_e( 'Help', 'integrate-google-drive' );
                             </clipPath>
                         </defs>
                     </svg>
-                    <span><?php 
-esc_html_e( 'Get PRO', 'integrate-google-drive' );
-?></span>
+                    <span><?php esc_html_e( 'Get PRO', 'integrate-google-drive' ); ?></span>
                 </div>
-			<?php 
-?>
+			<?php } ?>
 
         </div>
 
-		<?php 
-include_once IGD_INCLUDES . '/views/getting-started/introduction.php';
-?>
-		<?php 
-include_once IGD_INCLUDES . '/views/getting-started/what-new.php';
-?>
-		<?php 
-include_once IGD_INCLUDES . '/views/getting-started/basic-usage.php';
-?>
-		<?php 
-include_once IGD_INCLUDES . '/views/getting-started/data-privacy.php';
-?>
-		<?php 
-include_once IGD_INCLUDES . '/views/getting-started/help.php';
-?>
-		<?php 
-include_once IGD_INCLUDES . '/views/getting-started/get-pro.php';
-?>
+		<?php include_once IGD_INCLUDES . '/views/getting-started/introduction.php'; ?>
+		<?php include_once IGD_INCLUDES . '/views/getting-started/what-new.php'; ?>
+		<?php include_once IGD_INCLUDES . '/views/getting-started/basic-usage.php'; ?>
+		<?php include_once IGD_INCLUDES . '/views/getting-started/data-privacy.php'; ?>
+		<?php include_once IGD_INCLUDES . '/views/getting-started/help.php'; ?>
+		<?php
+		if ( ! igd_fs()->can_use_premium_code__premium_only() ) {
+			include_once IGD_INCLUDES . '/views/getting-started/get-pro.php';
+		}
+		?>
 
     </div>
 

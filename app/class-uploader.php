@@ -128,7 +128,7 @@ class Uploader {
 			$url = $media->getResumeUri();
 
 			$this->client->setDefer( false );
-            error_log(print_r($url, 1));
+
 			return $url;
 
 		} catch ( \Exception $exception ) {

@@ -1,15 +1,17 @@
 <?php
 
 /**
- * Plugin Name: Integrate Google Drive
+ * Plugin Name: Integrate Google Drive (PRO)
  * Plugin URI:  https://softlabbd.com/integrate-google-drive
  * Description: Seamless Google Drive integration for WordPress, allowing you to embed, share, play, and download documents and media files directly from Google Drive to your WordPress site.
  * Version:     1.3.3
+ * Update URI: https://api.freemius.com
  * Author:      SoftLab
  * Author URI:  https://softlabbd.com/
  * Text Domain: integrate-google-drive
  * Domain Path: /languages/
  *
+ * @fs_premium_only /assets/vendor/slick, /assets/js/statistics.js, /assets/vendor/chart.js, /includes/integrations/templates, /includes/integrations/woocommerce, /includes/integrations/tutor.php, /includes/integrations/class-fluentforms.php, /includes/integrations/class-ninjaforms.php, /includes/integrations/class-edd.php, /includes/integrations/class-acf.php, /includes/integrations/class-gravityforms.php, /includes/integrations/class-wpforms.php,  /includes/integrations/class-formidableforms.php
  */
 // don't call the file directly
 if ( !defined( 'ABSPATH' ) ) {
@@ -17,7 +19,7 @@ if ( !defined( 'ABSPATH' ) ) {
 }
 
 if ( function_exists( 'igd_fs' ) ) {
-    igd_fs()->set_basename( false, __FILE__ );
+    igd_fs()->set_basename( true, __FILE__ );
 } else {
     // DO NOT REMOVE THIS IF, IT IS ESSENTIAL FOR THE `function_exists` CALL ABOVE TO PROPERLY WORK.
     
@@ -35,7 +37,7 @@ if ( function_exists( 'igd_fs' ) ) {
                     'slug'           => 'integrate-google-drive',
                     'type'           => 'plugin',
                     'public_key'     => 'pk_eb27e7eaa4f2692b385aec28288f2',
-                    'is_premium'     => false,
+                    'is_premium'     => true,
                     'premium_suffix' => '(PRO)',
                     'has_addons'     => false,
                     'has_paid_plans' => true,

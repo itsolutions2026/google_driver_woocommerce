@@ -199,7 +199,7 @@ class App {
 		}
 
 		// Sort files
-		$files = $this->sort_files( $files, $sort );
+		$files = igd_sort_files( $files, $sort );
 
 		// Reformat shortcuts
 		$files = $this->reformat_shortcuts( $files );
@@ -209,36 +209,6 @@ class App {
 			Files::set( $files, $folder_id );
 			igd_update_cached_folders( $folder_id, $folder_account_id );
 		}
-
-		return $files;
-	}
-
-	public function sort_files( $files, $sort ) {
-
-		if ( empty( $sort ) ) {
-			$sort = [ 'sortBy' => 'name', 'sortDirection' => 'asc' ];
-		}
-
-		$sort_by        = $sort['sortBy'];
-		$sort_direction = $sort['sortDirection'] === 'asc' ? SORT_ASC : SORT_DESC;
-
-		// Initializing sorting arrays
-		$sort_array           = [];
-		$sort_array_secondary = [];
-
-		// Populating sorting arrays and adding isFolder attribute to files
-		foreach ( $files as $key => $file ) {
-			$files[ $key ]['isFolder'] = igd_is_dir( $file );
-			$sort_array[ $key ]        = $files[ $key ]['isFolder'];
-
-			// Convert date to timestamp if needed
-			$sort_array_secondary[ $key ] = in_array( $sort_by, [
-				'created',
-				'updated'
-			] ) ? strtotime( $file[ $sort_by ] ) : $file[ $sort_by ];
-		}
-
-		array_multisort( $sort_array, SORT_DESC, $sort_array_secondary, $sort_direction, SORT_NATURAL | SORT_FLAG_CASE, $files );
 
 		return $files;
 	}

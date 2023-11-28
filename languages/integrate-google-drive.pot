@@ -2,21 +2,21 @@
 # This file is distributed under the same license as the Integrate Google Drive plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Integrate Google Drive 1.3.2\n"
+"Project-Id-Version: Integrate Google Drive 1.3.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/integrate-google-drive\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-11-17T17:53:52+00:00\n"
+"POT-Creation-Date: 2023-11-22T08:12:36+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: integrate-google-drive\n"
 
 #. Plugin Name of the plugin
 #: includes/blocks/class-blocks.php:89
-#: includes/class-admin.php:170
+#: includes/class-admin.php:188
 #: includes/elementor/class-elementor.php:475
 #: includes/integrations/class-acf.php:16
 #: includes/views/getting-started/index.php:13
@@ -72,11 +72,11 @@ msgstr ""
 msgid "Docs"
 msgstr ""
 
-#: includes/class-admin.php:105
+#: includes/class-admin.php:123
 msgid "File Browser - Integrate Google Drive"
 msgstr ""
 
-#: includes/class-admin.php:106
+#: includes/class-admin.php:124
 #: includes/elementor/class-elementor-browser-widget__premium_only.php:18
 #: includes/elementor/class-elementor-browser-widget__premium_only.php:57
 #: includes/elementor/class-elementor-browser-widget__premium_only.php:90
@@ -86,58 +86,58 @@ msgstr ""
 msgid "File Browser"
 msgstr ""
 
-#: includes/class-admin.php:110
+#: includes/class-admin.php:128
 msgid "Shortcode Builder - Integrate Google Drive"
 msgstr ""
 
-#: includes/class-admin.php:111
+#: includes/class-admin.php:129
 #: includes/views/getting-started/basic-usage.php:90
 #: includes/views/getting-started/basic-usage.php:117
 #: includes/views/getting-started/get-pro.php:29
 msgid "Shortcode Builder"
 msgstr ""
 
-#: includes/class-admin.php:115
+#: includes/class-admin.php:133
 msgid "Users Private Files - Integrate Google Drive"
 msgstr ""
 
-#: includes/class-admin.php:116
+#: includes/class-admin.php:134
 msgid "Users Private Files"
 msgstr ""
 
-#: includes/class-admin.php:120
+#: includes/class-admin.php:138
 msgid "Getting Started - Integrate Google Drive"
 msgstr ""
 
-#: includes/class-admin.php:121
+#: includes/class-admin.php:139
 #: includes/views/getting-started/index.php:17
 msgid "Getting Started"
 msgstr ""
 
-#: includes/class-admin.php:125
+#: includes/class-admin.php:143
 msgid "Statistics - Integrate Google Drive"
 msgstr ""
 
-#: includes/class-admin.php:126
+#: includes/class-admin.php:144
 #: includes/views/getting-started/get-pro.php:69
 msgid "Statistics"
 msgstr ""
 
-#: includes/class-admin.php:130
+#: includes/class-admin.php:148
 msgid "Settings - Integrate Google Drive"
 msgstr ""
 
-#: includes/class-admin.php:131
+#: includes/class-admin.php:149
 #: includes/integrations/templates/tutor/dashboard/settings/google-drive.php:19
 msgid "Settings"
 msgstr ""
 
-#: includes/class-admin.php:158
-#: includes/class-admin.php:159
+#: includes/class-admin.php:176
+#: includes/class-admin.php:177
 msgid "Recommended Plugins"
 msgstr ""
 
-#: includes/class-admin.php:171
+#: includes/class-admin.php:189
 #: includes/class-tinymce.php:35
 #: includes/integrations/class-dokan.php:395
 #: includes/integrations/class-formidableforms.php:171
@@ -641,7 +641,7 @@ msgstr ""
 msgid "Computers"
 msgstr ""
 
-#: includes/functions.php:1476
+#: includes/functions.php:1466
 msgid "The file you are trying to load does not exist in your theme or Tutor LMS plugin location. If you are extending the Tutor LMS plugin, please create a php file here: "
 msgstr ""
 

@@ -701,34 +701,36 @@ function igd_mime_to_ext( $mime ) {
 	return isset( $mime_map[ $mime ] ) ? $mime_map[ $mime ] : false;
 }
 
-function igd_get_all_child_folders( $folder ) {
-
+function igd_get_child_items( $folder ) {
 	$args = [
 		'folder' => $folder,
 	];
 
-	$list = [];
-
 	$app = App::instance( $folder['accountId'] );
 
-	$data  = $app->get_files( $args );
-	$files = ! empty( $data['files'] ) ? $data['files'] : [];
+	$data = $app->get_files( $args );
 
 	if ( ! empty( $data['error'] ) ) {
 		error_log( 'Integrate Google Drive - Error: ' . $data['error'] );
 
-		return $list;
+		return [];
 	}
 
-	if ( ! empty( $files ) ) {
-		foreach ( $files as $file ) {
+	return ! empty( $data['files'] ) ? $data['files'] : [];
+}
 
-			if ( ! igd_is_dir( $file ) ) {
-				continue;
-			}
+function igd_get_all_child_folders( $folder ) {
 
-			$list[]        = $file;
-			$child_folders = igd_get_all_child_folders( $file );
+	$folders = array_filter( igd_get_child_items( $folder ), function ( $file ) {
+		return igd_is_dir( $file );
+	} );
+
+	$list = [];
+
+	if ( ! empty( $folders ) ) {
+		foreach ( $folders as $folder_item ) {
+			$list[]        = $folder_item;
+			$child_folders = igd_get_all_child_folders( $folder_item );
 			$list          = array_merge( $list, $child_folders );
 		}
 	}
@@ -738,32 +740,20 @@ function igd_get_all_child_folders( $folder ) {
 
 function igd_get_all_child_files( $folder ) {
 
-	$args = [
-		'folder' => $folder,
-	];
+	$items = igd_get_child_items( $folder );
 
 	$list = [];
 
-	$app = App::instance( $folder['accountId'] );
+	if ( ! empty( $items ) ) {
+		foreach ( $items as $item ) {
 
-	$data  = $app->get_files( $args );
-	$files = ! empty( $data['files'] ) ? $data['files'] : [];
-
-	if ( ! empty( $data['error'] ) ) {
-		error_log( 'Integrate Google Drive - Error: ' . $data['error'] );
-
-		return $list;
-	}
-
-	if ( ! empty( $files ) ) {
-		foreach ( $files as $file ) {
-			if ( igd_is_dir( $file ) ) {
-				$child_files = igd_get_all_child_files( $file );
+			if ( igd_is_dir( $item ) ) {
+				$child_files = igd_get_all_child_files( $item );
 				$list        = array_merge( $list, $child_files );
 				continue;
 			}
 
-			$list[] = $file;
+			$list[] = $item;
 		}
 	}
 
@@ -778,7 +768,7 @@ function igd_get_all_parent_folders( $file ) {
 	// Check if file has parents
 	if ( ! empty( $file['parents'] ) ) {
 		foreach ( $file['parents'] as $parent_id ) {
-			$parent_folder = $app->get_file_by_id( $parent_id ); // Assuming `get_file` is a method to get a file's details using its id
+			$parent_folder = $app->get_file_by_id( $parent_id );
 
 			// Check if retrieved parent folder is indeed a directory
 			if ( igd_is_dir( $parent_folder ) ) {
@@ -2031,4 +2021,34 @@ function igd_is_gmail( $email ) {
 	}
 
 	return false; // It's either not a valid email or not a Gmail address
+}
+
+function igd_sort_files( $files, $sort ) {
+
+	if ( empty( $sort ) ) {
+		$sort = [ 'sortBy' => 'name', 'sortDirection' => 'asc' ];
+	}
+
+	$sort_by        = $sort['sortBy'];
+	$sort_direction = $sort['sortDirection'] === 'asc' ? SORT_ASC : SORT_DESC;
+
+	// Initializing sorting arrays
+	$sort_array           = [];
+	$sort_array_secondary = [];
+
+	// Populating sorting arrays and adding isFolder attribute to files
+	foreach ( $files as $key => $file ) {
+		$files[ $key ]['isFolder'] = igd_is_dir( $file );
+		$sort_array[ $key ]        = $files[ $key ]['isFolder'];
+
+		// Convert date to timestamp if needed
+		$sort_array_secondary[ $key ] = in_array( $sort_by, [
+			'created',
+			'updated'
+		] ) ? strtotime( $file[ $sort_by ] ) : $file[ $sort_by ];
+	}
+
+	array_multisort( $sort_array, SORT_DESC, $sort_array_secondary, $sort_direction, SORT_NATURAL | SORT_FLAG_CASE, $files );
+
+	return $files;
 }
