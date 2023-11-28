@@ -1,0 +1,2180 @@
+# Copyright (C) 2023 SoftLab
+# This file is distributed under the same license as the Integrate Google Drive plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Integrate Google Drive 1.3.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/integrate-google-drive\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-11-17T17:53:52+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: integrate-google-drive\n"
+
+#. Plugin Name of the plugin
+#: includes/blocks/class-blocks.php:89
+#: includes/class-admin.php:170
+#: includes/elementor/class-elementor.php:475
+#: includes/integrations/class-acf.php:16
+#: includes/views/getting-started/index.php:13
+msgid "Integrate Google Drive"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://softlabbd.com/integrate-google-drive"
+msgstr ""
+
+#. Description of the plugin
+msgid "Seamless Google Drive integration for WordPress, allowing you to embed, share, play, and download documents and media files directly from Google Drive to your WordPress site."
+msgstr ""
+
+#. Author of the plugin
+msgid "SoftLab"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://softlabbd.com/"
+msgstr ""
+
+#: app/class-app.php:128
+msgid "Server error"
+msgstr ""
+
+#: app/class-app.php:128
+msgid "Couldn't connect to the Google drive API server."
+msgstr ""
+
+#: app/class-client.php:168
+msgid "Error communicating with API:"
+msgstr ""
+
+#: app/class-private-folders.php:198
+msgctxt "No user roles"
+msgid "None"
+msgstr ""
+
+#: app/class-zip.php:69
+msgid "Preparing Files..."
+msgstr ""
+
+#: app/class-zip.php:127
+msgid "Downloading Files..."
+msgstr ""
+
+#: app/class-zip.php:182
+msgid "Error creating ZIP file"
+msgstr ""
+
+#: includes/base.php:93
+msgid "Docs"
+msgstr ""
+
+#: includes/class-admin.php:105
+msgid "File Browser - Integrate Google Drive"
+msgstr ""
+
+#: includes/class-admin.php:106
+#: includes/elementor/class-elementor-browser-widget__premium_only.php:18
+#: includes/elementor/class-elementor-browser-widget__premium_only.php:57
+#: includes/elementor/class-elementor-browser-widget__premium_only.php:90
+#: includes/elementor/class-elementor.php:354
+#: includes/views/getting-started/introduction.php:123
+#: includes/views/getting-started/introduction.php:136
+msgid "File Browser"
+msgstr ""
+
+#: includes/class-admin.php:110
+msgid "Shortcode Builder - Integrate Google Drive"
+msgstr ""
+
+#: includes/class-admin.php:111
+#: includes/views/getting-started/basic-usage.php:90
+#: includes/views/getting-started/basic-usage.php:117
+#: includes/views/getting-started/get-pro.php:29
+msgid "Shortcode Builder"
+msgstr ""
+
+#: includes/class-admin.php:115
+msgid "Users Private Files - Integrate Google Drive"
+msgstr ""
+
+#: includes/class-admin.php:116
+msgid "Users Private Files"
+msgstr ""
+
+#: includes/class-admin.php:120
+msgid "Getting Started - Integrate Google Drive"
+msgstr ""
+
+#: includes/class-admin.php:121
+#: includes/views/getting-started/index.php:17
+msgid "Getting Started"
+msgstr ""
+
+#: includes/class-admin.php:125
+msgid "Statistics - Integrate Google Drive"
+msgstr ""
+
+#: includes/class-admin.php:126
+#: includes/views/getting-started/get-pro.php:69
+msgid "Statistics"
+msgstr ""
+
+#: includes/class-admin.php:130
+msgid "Settings - Integrate Google Drive"
+msgstr ""
+
+#: includes/class-admin.php:131
+#: includes/integrations/templates/tutor/dashboard/settings/google-drive.php:19
+msgid "Settings"
+msgstr ""
+
+#: includes/class-admin.php:158
+#: includes/class-admin.php:159
+msgid "Recommended Plugins"
+msgstr ""
+
+#: includes/class-admin.php:171
+#: includes/class-tinymce.php:35
+#: includes/integrations/class-dokan.php:395
+#: includes/integrations/class-formidableforms.php:171
+#: includes/integrations/class-gravityforms.php:222
+#: includes/integrations/class-tutor.php:83
+#: includes/integrations/class-tutor.php:340
+#: includes/integrations/class-wpforms.php:24
+msgid "Google Drive"
+msgstr ""
+
+#: includes/class-ajax.php:216
+#: includes/views/photo-proof-email__premium_only.php:168
+msgid "Client Photo Proof Selection"
+msgstr ""
+
+#: includes/class-ajax.php:510
+msgid "No active account found"
+msgstr ""
+
+#: includes/class-ajax.php:652
+msgid "Invalid request"
+msgstr ""
+
+#. translators: %s: User feedback
+#: includes/class-ajax.php:742
+msgid "Feedback: %s"
+msgstr ""
+
+#. translators: %s: Website URL
+#: includes/class-ajax.php:746
+msgid "Website URL: %s"
+msgstr ""
+
+#. translators: %s: Plugin name
+#: includes/class-ajax.php:749
+msgid "Feedback for %s"
+msgstr ""
+
+#: includes/class-ajax.php:790
+#: includes/class-ajax.php:884
+msgid "Something went wrong! Preview is not available"
+msgstr ""
+
+#: includes/class-ajax.php:806
+#: includes/class-ajax.php:851
+#: includes/class-statistics__premium_only.php:180
+msgid "Invalid nonce"
+msgstr ""
+
+#: includes/class-ajax.php:905
+msgid "Something went wrong! File may be deleted or moved to trash."
+msgstr ""
+
+#: includes/class-email-report__premium_only.php:48
+msgid "Once Monthly"
+msgstr ""
+
+#: includes/class-email-report__premium_only.php:83
+msgid "Weekly"
+msgstr ""
+
+#: includes/class-email-report__premium_only.php:87
+msgid "Monthly"
+msgstr ""
+
+#: includes/class-email-report__premium_only.php:90
+msgid "Daily"
+msgstr ""
+
+#: includes/class-email-report__premium_only.php:104
+msgid " Statistics Summary of Integrate Google Drive."
+msgstr ""
+
+#. translators: %d: number of files
+#: includes/class-hooks.php:224
+#: includes/class-hooks.php:240
+msgid "%d file uploaded to Google Drive"
+msgid_plural "%d files uploaded to Google Drive"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-hooks.php:289
+msgid "Integrate Google Drive Synchronize Interval"
+msgstr ""
+
+#: includes/class-notifications__premium_only.php:200
+msgid "An anonymous user"
+msgstr ""
+
+#: includes/class-notifications__premium_only.php:204
+msgid "file"
+msgstr ""
+
+#. translators: %1$s: number of files, %2$s: folder name
+#: includes/class-notifications__premium_only.php:222
+msgid "%1$s files to %2$s."
+msgstr ""
+
+#. translators: %1$s: file name, %2$s: folder name
+#: includes/class-notifications__premium_only.php:225
+msgid "%1$s file to %2$s."
+msgstr ""
+
+#. translators: %1$s: user name, %2$s: file name
+#: includes/class-notifications__premium_only.php:229
+msgid "%1$s uploaded %2$s"
+msgstr ""
+
+#. translators: %1$s: number of files
+#: includes/class-notifications__premium_only.php:235
+#: includes/class-notifications__premium_only.php:260
+msgid "(%1$s) file(s)"
+msgstr ""
+
+#. translators: %1$s: user name, %2$s: file name
+#: includes/class-notifications__premium_only.php:239
+msgid "%1$s deleted %2$s"
+msgstr ""
+
+#. translators: %1$s: user name, %2$s: file name
+#: includes/class-notifications__premium_only.php:245
+msgid "%1$s searched for %2$s"
+msgstr ""
+
+#. translators: %1$s: user name, %2$s: file name
+#: includes/class-notifications__premium_only.php:250
+msgid "%1$s played %2$s"
+msgstr ""
+
+#. translators: %1$s: user name, %2$s: file name
+#: includes/class-notifications__premium_only.php:255
+msgid "%1$s viewed %2$s"
+msgstr ""
+
+#. translators: %1$s: user name, %2$s: file name
+#: includes/class-notifications__premium_only.php:264
+msgid "%1$s downloaded %2$s"
+msgstr ""
+
+#: includes/class-shortcode.php:44
+msgid "Access Denied"
+msgstr ""
+
+#: includes/class-shortcode.php:44
+msgid "We're sorry, but your account does not currently have access to this content. To gain access, please contact the site administrator who can assist in linking your account to the appropriate content. Thank you."
+msgstr ""
+
+#: includes/class-statistics__premium_only.php:58
+#: includes/class-statistics__premium_only.php:78
+#: includes/class-statistics__premium_only.php:92
+msgid "Type"
+msgstr ""
+
+#: includes/class-statistics__premium_only.php:59
+#: includes/class-statistics__premium_only.php:93
+msgid "File Name"
+msgstr ""
+
+#: includes/class-statistics__premium_only.php:60
+#: includes/class-statistics__premium_only.php:94
+#: includes/integrations/class-acf.php:50
+msgid "File ID"
+msgstr ""
+
+#: includes/class-statistics__premium_only.php:61
+#: includes/class-statistics__premium_only.php:98
+msgid "Date"
+msgstr ""
+
+#: includes/class-statistics__premium_only.php:79
+#: includes/class-statistics__premium_only.php:96
+msgid "User Name"
+msgstr ""
+
+#: includes/class-statistics__premium_only.php:80
+#: includes/class-statistics__premium_only.php:97
+msgid "User ID"
+msgstr ""
+
+#: includes/class-statistics__premium_only.php:81
+msgid "Action Count"
+msgstr ""
+
+#: includes/class-statistics__premium_only.php:95
+msgid "FIle Type"
+msgstr ""
+
+#: includes/class-statistics__premium_only.php:290
+#: includes/class-statistics__premium_only.php:331
+msgid "Guest"
+msgstr ""
+
+#: includes/divi/includes/modules/Browser/Browser.php:19
+msgid "Google Drive File Browser"
+msgstr ""
+
+#: includes/divi/includes/modules/Browser/Browser.php:50
+#: includes/divi/includes/modules/Download/Download.php:50
+#: includes/divi/includes/modules/Embed/Embed.php:50
+#: includes/divi/includes/modules/Gallery/Gallery.php:50
+#: includes/divi/includes/modules/Media/Media.php:50
+#: includes/divi/includes/modules/Search/Search.php:50
+#: includes/divi/includes/modules/Slider/Slider.php:50
+#: includes/divi/includes/modules/Uploader/Uploader.php:50
+#: includes/divi/includes/modules/View/View.php:50
+#: includes/elementor/class-elementor-browser-widget__premium_only.php:97
+#: includes/elementor/class-elementor-download-widget.php:98
+#: includes/elementor/class-elementor-embed-widget.php:97
+#: includes/elementor/class-elementor-gallery-widget.php:97
+#: includes/elementor/class-elementor-media-widget__premium_only.php:100
+#: includes/elementor/class-elementor-search-widget__premium_only.php:97
+#: includes/elementor/class-elementor-slider-widget__premium_only.php:98
+#: includes/elementor/class-elementor-uploader-widget__premium_only.php:97
+#: includes/elementor/class-elementor-view-widget.php:98
+msgid "Configure Module"
+msgstr ""
+
+#: includes/divi/includes/modules/Browser/Browser.php:53
+#: includes/divi/includes/modules/Download/Download.php:53
+#: includes/divi/includes/modules/Embed/Embed.php:53
+#: includes/divi/includes/modules/Gallery/Gallery.php:53
+#: includes/divi/includes/modules/Media/Media.php:53
+#: includes/divi/includes/modules/Search/Search.php:53
+#: includes/divi/includes/modules/Slider/Slider.php:53
+#: includes/divi/includes/modules/Uploader/Uploader.php:53
+#: includes/divi/includes/modules/View/View.php:53
+msgid "Configure the module"
+msgstr ""
+
+#: includes/divi/includes/modules/Download/Download.php:19
+msgid "Google Drive Download Links"
+msgstr ""
+
+#: includes/divi/includes/modules/Download/Download.php:25
+#: includes/divi/includes/modules/Slider/Slider.php:25
+#: includes/divi/includes/modules/Uploader/Uploader.php:25
+#: includes/divi/includes/modules/View/View.php:25
+msgid "Module Configuration"
+msgstr ""
+
+#: includes/divi/includes/modules/Embed/Embed.php:19
+msgid "Google Drive Embed"
+msgstr ""
+
+#: includes/divi/includes/modules/Gallery/Gallery.php:19
+msgid "Google Drive Gallery"
+msgstr ""
+
+#: includes/divi/includes/modules/Media/Media.php:19
+msgid "Google Drive Media Player"
+msgstr ""
+
+#: includes/divi/includes/modules/Search/Search.php:19
+msgid "Google Drive Search Box"
+msgstr ""
+
+#: includes/divi/includes/modules/Shortcodes/Shortcodes.php:20
+msgid "Google Drive Shortcodes"
+msgstr ""
+
+#: includes/divi/includes/modules/Shortcodes/Shortcodes.php:55
+#: includes/elementor/class-elementor-shortcodes-widget.php:65
+msgid "Select Shortcode"
+msgstr ""
+
+#: includes/divi/includes/modules/Shortcodes/Shortcodes.php:59
+#: includes/elementor/class-elementor-shortcodes-widget.php:62
+msgid "Select Shortcode Module"
+msgstr ""
+
+#: includes/divi/includes/modules/Shortcodes/Shortcodes.php:62
+msgid "Select a shortcode module"
+msgstr ""
+
+#: includes/divi/includes/modules/Slider/Slider.php:19
+msgid "Google Drive Slider Carousel"
+msgstr ""
+
+#: includes/divi/includes/modules/Uploader/Uploader.php:19
+msgid "Google Drive Uploader"
+msgstr ""
+
+#: includes/divi/includes/modules/View/View.php:19
+msgid "Google Drive View Links"
+msgstr ""
+
+#: includes/elementor/class-elementor-browser-widget__premium_only.php:62
+#: includes/elementor/class-elementor-download-widget.php:63
+#: includes/elementor/class-elementor-embed-widget.php:62
+#: includes/elementor/class-elementor-form__premium_only.php:40
+#: includes/elementor/class-elementor-gallery-widget.php:62
+#: includes/elementor/class-elementor-media-widget__premium_only.php:65
+#: includes/elementor/class-elementor-search-widget__premium_only.php:62
+#: includes/elementor/class-elementor-slider-widget__premium_only.php:63
+#: includes/elementor/class-elementor-uploader-widget__premium_only.php:62
+#: includes/elementor/class-elementor-view-widget.php:63
+#: includes/elementor/class-metform__premium_only.php:74
+msgid "Module Data"
+msgstr ""
+
+#: includes/elementor/class-elementor-browser-widget__premium_only.php:70
+#: includes/elementor/class-elementor-download-widget.php:71
+#: includes/elementor/class-elementor-embed-widget.php:70
+#: includes/elementor/class-elementor-gallery-widget.php:70
+#: includes/elementor/class-elementor-media-widget__premium_only.php:73
+#: includes/elementor/class-elementor-search-widget__premium_only.php:70
+#: includes/elementor/class-elementor-slider-widget__premium_only.php:71
+#: includes/elementor/class-elementor-uploader-widget__premium_only.php:70
+#: includes/elementor/class-elementor-view-widget.php:71
+msgid "Configure  Module"
+msgstr ""
+
+#: includes/elementor/class-elementor-browser-widget__premium_only.php:71
+#: includes/elementor/class-elementor-download-widget.php:72
+#: includes/elementor/class-elementor-embed-widget.php:71
+#: includes/elementor/class-elementor-form__premium_only.php:54
+#: includes/elementor/class-elementor-gallery-widget.php:71
+#: includes/elementor/class-elementor-media-widget__premium_only.php:74
+#: includes/elementor/class-elementor-search-widget__premium_only.php:71
+#: includes/elementor/class-elementor-slider-widget__premium_only.php:72
+#: includes/elementor/class-elementor-uploader-widget__premium_only.php:71
+#: includes/elementor/class-elementor-view-widget.php:72
+#: includes/elementor/class-metform__premium_only.php:83
+#: includes/integrations/class-cf7.php:304
+#: includes/integrations/class-fluentforms.php:197
+#: includes/integrations/class-formidableforms.php:215
+#: includes/integrations/class-gravityforms.php:172
+msgid "Configure"
+msgstr ""
+
+#: includes/elementor/class-elementor-browser-widget__premium_only.php:73
+#: includes/elementor/class-elementor-download-widget.php:74
+#: includes/elementor/class-elementor-embed-widget.php:73
+#: includes/elementor/class-elementor-gallery-widget.php:73
+#: includes/elementor/class-elementor-media-widget__premium_only.php:76
+#: includes/elementor/class-elementor-search-widget__premium_only.php:73
+#: includes/elementor/class-elementor-slider-widget__premium_only.php:74
+#: includes/elementor/class-elementor-uploader-widget__premium_only.php:73
+#: includes/elementor/class-elementor-view-widget.php:74
+msgid "Configure the module first to display the content"
+msgstr ""
+
+#: includes/elementor/class-elementor-browser-widget__premium_only.php:91
+#: includes/elementor/class-elementor-download-widget.php:92
+#: includes/elementor/class-elementor-embed-widget.php:91
+#: includes/elementor/class-elementor-gallery-widget.php:91
+#: includes/elementor/class-elementor-media-widget__premium_only.php:94
+#: includes/elementor/class-elementor-search-widget__premium_only.php:91
+#: includes/elementor/class-elementor-slider-widget__premium_only.php:92
+#: includes/elementor/class-elementor-uploader-widget__premium_only.php:91
+#: includes/elementor/class-elementor-view-widget.php:92
+msgid "Please, configure the module first to display the content"
+msgstr ""
+
+#: includes/elementor/class-elementor-download-widget.php:19
+#: includes/elementor/class-elementor-download-widget.php:58
+#: includes/elementor/class-elementor-download-widget.php:91
+msgid "Insert Download Links"
+msgstr ""
+
+#: includes/elementor/class-elementor-embed-widget.php:19
+#: includes/elementor/class-elementor-embed-widget.php:57
+#: includes/elementor/class-elementor-embed-widget.php:90
+#: includes/views/getting-started/basic-usage.php:85
+#: includes/views/getting-started/introduction.php:220
+msgid "Embed Documents"
+msgstr ""
+
+#: includes/elementor/class-elementor-form__premium_only.php:19
+#: includes/elementor/class-metform__premium_only.php:25
+#: includes/integrations/class-cf7.php:257
+#: includes/integrations/class-fluentforms.php:16
+msgid "Google Drive Upload"
+msgstr ""
+
+#: includes/elementor/class-elementor-form__premium_only.php:53
+#: includes/elementor/class-metform__premium_only.php:82
+msgid "Configure  Uploader"
+msgstr ""
+
+#: includes/elementor/class-elementor-form__premium_only.php:56
+#: includes/elementor/class-metform__premium_only.php:85
+msgid "Configure the uploader"
+msgstr ""
+
+#. translators: %d: minimum file uploads
+#: includes/elementor/class-elementor-form__premium_only.php:141
+msgid "Please upload at least %d file(s)"
+msgstr ""
+
+#: includes/elementor/class-elementor-gallery-widget.php:19
+#: includes/views/getting-started/introduction.php:178
+msgid "Gallery"
+msgstr ""
+
+#: includes/elementor/class-elementor-gallery-widget.php:57
+msgid "Gallery Module"
+msgstr ""
+
+#: includes/elementor/class-elementor-gallery-widget.php:90
+#: includes/views/getting-started/basic-usage.php:55
+msgid "Photo Gallery"
+msgstr ""
+
+#: includes/elementor/class-elementor-media-widget__premium_only.php:19
+#: includes/elementor/class-elementor-media-widget__premium_only.php:60
+#: includes/elementor/class-elementor-media-widget__premium_only.php:93
+#: includes/elementor/class-elementor.php:366
+#: includes/views/getting-started/introduction.php:162
+msgid "Media Player"
+msgstr ""
+
+#: includes/elementor/class-elementor-search-widget__premium_only.php:19
+#: includes/elementor/class-elementor.php:372
+msgid "Search Box"
+msgstr ""
+
+#: includes/elementor/class-elementor-search-widget__premium_only.php:57
+msgid "File Search Module"
+msgstr ""
+
+#: includes/elementor/class-elementor-search-widget__premium_only.php:90
+#: includes/views/getting-started/basic-usage.php:60
+#: includes/views/getting-started/introduction.php:208
+msgid "File Search"
+msgstr ""
+
+#: includes/elementor/class-elementor-shortcodes-widget.php:17
+msgid "Module Shortcodes"
+msgstr ""
+
+#: includes/elementor/class-elementor-shortcodes-widget.php:55
+msgid "Module Shortcode"
+msgstr ""
+
+#: includes/elementor/class-elementor-shortcodes-widget.php:94
+msgid "Google Drive Module Shortcodes"
+msgstr ""
+
+#: includes/elementor/class-elementor-shortcodes-widget.php:95
+msgid "Please select a shortcode from the widget settings."
+msgstr ""
+
+#: includes/elementor/class-elementor-slider-widget__premium_only.php:19
+#: includes/elementor/class-elementor-slider-widget__premium_only.php:91
+#: includes/elementor/class-elementor.php:378
+#: includes/views/getting-started/introduction.php:192
+msgid "Slider Carousel"
+msgstr ""
+
+#: includes/elementor/class-elementor-slider-widget__premium_only.php:58
+msgid "Slider Carousel Module"
+msgstr ""
+
+#: includes/elementor/class-elementor-uploader-widget__premium_only.php:18
+#: includes/elementor/class-elementor-uploader-widget__premium_only.php:57
+#: includes/elementor/class-elementor-uploader-widget__premium_only.php:90
+#: includes/elementor/class-elementor.php:360
+#: includes/views/getting-started/basic-usage.php:52
+#: includes/views/getting-started/introduction.php:143
+#: includes/views/getting-started/introduction.php:155
+msgid "File Uploader"
+msgstr ""
+
+#: includes/elementor/class-elementor-view-widget.php:19
+#: includes/elementor/class-elementor-view-widget.php:58
+#: includes/elementor/class-elementor-view-widget.php:91
+msgid "Insert View Links"
+msgstr ""
+
+#: includes/elementor/class-metform__premium_only.php:68
+msgid "Content"
+msgstr ""
+
+#: includes/elementor/class-metform__premium_only.php:97
+msgid "Validation Type"
+msgstr ""
+
+#: includes/elementor/class-metform__premium_only.php:106
+msgid "File Size Limit : "
+msgstr ""
+
+#: includes/elementor/class-metform__premium_only.php:124
+msgid "Label"
+msgstr ""
+
+#: includes/elementor/class-metform__premium_only.php:160
+#: includes/integrations/class-cf7.php:39
+msgid "This field is required."
+msgstr ""
+
+#: includes/functions.php:45
+msgid "Shared Drives"
+msgstr ""
+
+#: includes/functions.php:53
+msgid "Shared with me"
+msgstr ""
+
+#: includes/functions.php:57
+msgid "Computers"
+msgstr ""
+
+#: includes/functions.php:1476
+msgid "The file you are trying to load does not exist in your theme or Tutor LMS plugin location. If you are extending the Tutor LMS plugin, please create a php file here: "
+msgstr ""
+
+#: includes/integrations/class-acf.php:14
+msgid "Google Drive Files"
+msgstr ""
+
+#: includes/integrations/class-acf.php:49
+#: includes/integrations/class-cf7.php:292
+msgid "Name"
+msgstr ""
+
+#: includes/integrations/class-acf.php:51
+msgid "Actions"
+msgstr ""
+
+#: includes/integrations/class-acf.php:65
+msgid "View"
+msgstr ""
+
+#: includes/integrations/class-acf.php:67
+msgid "Download"
+msgstr ""
+
+#: includes/integrations/class-acf.php:69
+#: includes/integrations/templates/dokan-settings.php:63
+#: includes/integrations/templates/tutor/dashboard/settings/google-drive.php:61
+msgid "Remove"
+msgstr ""
+
+#: includes/integrations/class-acf.php:74
+msgid "No Files Added"
+msgstr ""
+
+#: includes/integrations/class-acf.php:82
+msgid "Add File"
+msgstr ""
+
+#. translators: %d: minimum file uploads
+#: includes/integrations/class-cf7.php:52
+#: includes/integrations/class-fluentforms.php:314
+#: includes/integrations/class-gravityforms.php:357
+#: includes/integrations/class-wpforms.php:71
+msgid "Please upload at least %d files."
+msgstr ""
+
+#: includes/integrations/class-cf7.php:268
+msgid "Generate a form-tag for this upload field."
+msgstr ""
+
+#: includes/integrations/class-cf7.php:276
+#: includes/integrations/class-cf7.php:280
+msgid "Field type"
+msgstr ""
+
+#: includes/integrations/class-cf7.php:283
+msgid "Required field"
+msgstr ""
+
+#: includes/integrations/class-cf7.php:314
+#: includes/integrations/class-formidableforms.php:205
+#: includes/integrations/class-gravityforms.php:178
+#: includes/integrations/class-ninjaforms.php:202
+#: includes/integrations/class-ninjaforms.php:216
+#: includes/integrations/class-wpforms.php:294
+msgid "Configure Uploader"
+msgstr ""
+
+#: includes/integrations/class-cf7.php:330
+msgid "Insert Tag"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:98
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:769
+msgid "Uploadable"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:100
+msgid "Let your customers upload files on purchase."
+msgstr ""
+
+#: includes/integrations/class-dokan.php:112
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:102
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:367
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:785
+msgid "Upload Documents"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:120
+msgid "Uploadable Options"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:122
+msgid "Configure your uploadable product settings"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:136
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:799
+msgid "Upload to Google Drive"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:140
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:805
+msgid "Google Drive Upload Settings"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:146
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:810
+msgid "Upload Button Text"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:153
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:821
+msgid "Upload Description"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:164
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:844
+msgid "Min Upload Files"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:168
+msgid "Minimum number of files"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:173
+msgid "Minimum number of files required to upload. Leave blank for no limit."
+msgstr ""
+
+#: includes/integrations/class-dokan.php:180
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:832
+msgid "Max Upload Files"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:184
+msgid "Maximum number of files"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:189
+msgid "Maximum number of files allowed to upload. Leave blank for no limit."
+msgstr ""
+
+#: includes/integrations/class-dokan.php:200
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:867
+msgid "Min File Size"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:204
+msgid "Min file size in MB"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:209
+msgid "Minimum file size in MB. Leave blank to allow all file sizes."
+msgstr ""
+
+#: includes/integrations/class-dokan.php:216
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:856
+msgid "Max File Size"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:220
+msgid "Max file size in MB"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:225
+msgid "Maximum file size in MB. Leave blank to allow all file sizes."
+msgstr ""
+
+#: includes/integrations/class-dokan.php:234
+msgid "Allowed File Types"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:243
+msgid "Comma separated file extensions (e.g: png, jpg, zip). Leave blank to allow all file types."
+msgstr ""
+
+#: includes/integrations/class-dokan.php:437
+msgid "You can connect your Google Drive account with your store to select download able files from your Google Drive account."
+msgstr ""
+
+#: includes/integrations/class-dokan.php:439
+msgid "You can connect your Google Drive account with your store to let customers upload files to your Google Drive account on purchase."
+msgstr ""
+
+#: includes/integrations/class-dokan.php:441
+msgid "You can connect your Google Drive account with your store to select download able files from your Google Drive account and let customers upload files to your Google Drive account on product purchase."
+msgstr ""
+
+#: includes/integrations/class-fluentforms.php:158
+#: includes/integrations/class-fluentforms.php:229
+#: includes/integrations/class-formidableforms.php:180
+#: includes/integrations/class-gravityforms.php:195
+msgid "Attach your documents"
+msgstr ""
+
+#: includes/integrations/class-fluentforms.php:166
+msgid "This field is required"
+msgstr ""
+
+#: includes/integrations/class-fluentforms.php:194
+msgid "Shortcode Data"
+msgstr ""
+
+#: includes/integrations/class-fluentforms.php:195
+msgid "Grab the Shortcode Data via the shortcode builder and copy + paste in this field."
+msgstr ""
+
+#: includes/integrations/class-fluentforms.php:197
+msgid "Configure the uploader field using the module shortcode builder and copy + paste the Shortcode Data in this field."
+msgstr ""
+
+#: includes/integrations/class-formidableforms.php:181
+msgid "No file selected"
+msgstr ""
+
+#. translators: %d: minimum number of files
+#: includes/integrations/class-formidableforms.php:320
+msgid "Please upload at least %d file(s)."
+msgstr ""
+
+#: includes/integrations/class-gravityforms.php:187
+msgid "Configure the uploader field."
+msgstr ""
+
+#: includes/integrations/class-gravityforms.php:240
+msgid "Integrate Google Drive Fields"
+msgstr ""
+
+#: includes/integrations/class-gravityforms.php:259
+msgid "Let users attach files to this form. The files will be stored in the Google Drive"
+msgstr ""
+
+#: includes/integrations/class-gravityforms.php:294
+msgid "This field is not editable"
+msgstr ""
+
+#: includes/integrations/class-gravityforms.php:344
+msgid "This field is required. Please upload your files."
+msgstr ""
+
+#: includes/integrations/class-ninjaforms.php:205
+msgid "Configure the file uploader with module builder."
+msgstr ""
+
+#. translators: %s: minimum files
+#: includes/integrations/class-ninjaforms.php:252
+msgid "Please upload at least %s files."
+msgstr ""
+
+#: includes/integrations/class-tutor.php:201
+#: includes/integrations/class-tutor.php:389
+msgid "Size"
+msgstr ""
+
+#: includes/integrations/class-tutor.php:362
+msgid "Select Your Video"
+msgstr ""
+
+#: includes/integrations/class-tutor.php:363
+msgid "File Format: "
+msgstr ""
+
+#: includes/integrations/class-tutor.php:370
+msgid "Browse Video"
+msgstr ""
+
+#: includes/integrations/class-tutor.php:418
+msgid "Upload Video Poster"
+msgstr ""
+
+#: includes/integrations/class-wpforms.php:307
+msgid "Data"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:22
+#: includes/integrations/templates/tutor/dashboard/settings/google-drive.php:27
+msgid "Google Drive Accounts"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:27
+#: includes/integrations/templates/tutor/dashboard/settings/google-drive.php:71
+msgid "Add new account"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:57
+#: includes/integrations/templates/tutor/dashboard/settings/google-drive.php:55
+msgid "Refresh"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:74
+#: includes/integrations/templates/tutor/dashboard/settings/google-drive.php:79
+msgid "You didn't link any account yet."
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:76
+#: includes/integrations/templates/tutor/dashboard/settings/google-drive.php:81
+msgid "Please link to a Google Drive account to continue."
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:81
+#: includes/integrations/templates/tutor/dashboard/settings/google-drive.php:86
+msgid "Sign in with Google"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:91
+msgid "Upload Settings"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:95
+msgid "Save Settings"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:101
+msgid "Settings saved successfully"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:110
+msgid "Upload Box Locations"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:119
+msgid "Product Page"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:120
+msgid "Cart Page"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:121
+msgid "Checkout Page"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:122
+msgid "Order Received Page"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:123
+msgid "My Account Page"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:150
+msgid "Select the pages where you want to show the upload box."
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:161
+msgid "Show When Order Status is"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:191
+msgid "Select the order status when the upload field will be shown to the customer."
+msgstr ""
+
+#. translators: %1$s: <strong> tag, %2$s: </strong> tag
+#: includes/integrations/templates/dokan-settings.php:195
+msgid "This option will only work on the %1$s Order Received %2$s and %1$s My Account %2$s page."
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:204
+msgid "Folder Naming Template"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:217
+msgid "Unique folder name for the uploaded files. A new folder will be created in the parent folder with this name."
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:220
+msgid "Available Placeholders (Click to insert) : "
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:247
+msgid "Upload Parent Folder"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:299
+msgid "Change Parent Folder"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:299
+msgid "Select Parent Folder"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:306
+msgid "You didn't link any Google account yet. Please link a Google account to select the upload folder"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:307
+msgid "Link a Google account →"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:312
+msgid "Select the parent folder where the new folder will be created."
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:83
+msgid "Please upload at least "
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:93
+msgid "Upload Options"
+msgstr ""
+
+#. translators: %1$s: order url, %2$s: order url
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:193
+msgid " You can now start uploading your documents"
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:206
+msgid "Uploaded Files"
+msgstr ""
+
+#. translators: %s: order url
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:346
+msgid "You can start uploading your documents on the %1$s order page%2$s"
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:375
+msgid "Upload files for "
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:462
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:705
+msgid "Anonymous user"
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:475
+msgid "Files of "
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:770
+msgid "Allow customers to upload files to this product."
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:812
+msgid "Enter the upload button text."
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:823
+msgid "Enter the description for the upload box."
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:834
+msgid "Maximum number of files that can be uploaded. Leave blank for no limit."
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:846
+msgid "Minimum number of files that can be uploaded. Leave blank for no limit."
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:858
+msgid "Maximum file size in MB. Leave blank for no limit."
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:869
+msgid "Minimum file size in MB. Leave blank for no limit."
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:878
+msgid "Allowed File Extensions"
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:880
+msgid "Comma separated list of allowed file extensions e.g (jpg, png, gif). Leave blank for no limit."
+msgstr ""
+
+#: includes/views/email-report__premium_only.php:6
+msgid "Weekly Statistics Summary"
+msgstr ""
+
+#: includes/views/email-report__premium_only.php:9
+msgid "Monthly Statistics Summary"
+msgstr ""
+
+#: includes/views/email-report__premium_only.php:11
+msgid "Daily Statistics Summary"
+msgstr ""
+
+#: includes/views/email-report__premium_only.php:77
+msgid "Top Downloads"
+msgstr ""
+
+#: includes/views/email-report__premium_only.php:81
+msgid "Top Uploads"
+msgstr ""
+
+#: includes/views/email-report__premium_only.php:85
+msgid "Top Streams"
+msgstr ""
+
+#: includes/views/email-report__premium_only.php:89
+msgid "Top Previews"
+msgstr ""
+
+#: includes/views/email-report__premium_only.php:116
+msgid "File"
+msgstr ""
+
+#: includes/views/email-report__premium_only.php:119
+msgid "Count"
+msgstr ""
+
+#: includes/views/email-report__premium_only.php:161
+msgid "Latest Activities"
+msgstr ""
+
+#: includes/views/email-report__premium_only.php:179
+msgid "A visitor"
+msgstr ""
+
+#: includes/views/email-report__premium_only.php:220
+msgid "View All Logs"
+msgstr ""
+
+#: includes/views/email-report__premium_only.php:240
+#: includes/views/notification-email__premium_only.php:202
+msgid "This email has been generated from Integrate Google Drive at"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:3
+#: includes/views/getting-started/index.php:54
+msgid "Basic Usage"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:4
+msgid "Learn the basic usage of the plugin."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:10
+msgid "Link a Google account"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:11
+msgid "After activating the plugin you have to link your Google account to the plugin. You can link multiple Google account to the plugin."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:13
+msgid "Follow the below steps to add a Google account to the plugin:"
+msgstr ""
+
+#. translators: %s: Google Drive
+#: includes/views/getting-started/basic-usage.php:17
+msgid "Go to the Google Drive or %1$s Google Drive > Settings %2$s page in the WordPress admin dashboard on your website."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:18
+msgid "Click on the Add account button."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:19
+msgid "A new window will open, you will be redirected to the Google login page to login with your email."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:20
+msgid "Select the email address with which you want to login."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:21
+msgid "Click the Allow button to authorize the plugin to access your Google Drive data."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:22
+msgid "Wait for the authorization process, then you are done!"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:29
+#: includes/views/getting-started/basic-usage.php:75
+#: includes/views/getting-started/basic-usage.php:102
+msgid "YouTube video player"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:40
+msgid "Shortcode Module Builder"
+msgstr ""
+
+#. translators: %s: shortcode
+#: includes/views/getting-started/basic-usage.php:43
+msgid "You can create any numbers of shortcode module and use them in your post/ page using the %1$s[integrate_google_drive]%2$s shortcode."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:45
+#: includes/views/getting-started/basic-usage.php:115
+msgid "There are several module types to create a shortcode. Those are:"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:47
+msgid "File Browser -"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:48
+msgid "Users can browse your Google Drive files."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:49
+#: includes/views/getting-started/get-pro.php:13
+msgid "Embed Document"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:50
+msgid "Embed any Google Drive file to your page/ post."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:53
+msgid "Users can upload files to your Google Drive account from your website."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:56
+msgid "Lightbox grid photo gallery module."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:57
+msgid "Audio & Video Player"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:58
+msgid "Play audio and video in a single player using this module."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:61
+msgid "Users can search any Google Drive files from your website using this module."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:63
+#: includes/views/getting-started/get-pro.php:21
+msgid "File View Links"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:64
+msgid "Insert any Google Drive file view link to yor page/ post."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:66
+#: includes/views/getting-started/get-pro.php:25
+msgid "File Download Links"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:67
+msgid "Insert any Google Drive file download link to yor page/ post"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:86
+msgid "You can embed any Google Drive files to your page/ post in two ways."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:88
+msgid "Those are:"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:91
+msgid "To embed any documents with the shortcode builder you have to select the Embed Documents type."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:93
+#: includes/views/getting-started/basic-usage.php:120
+msgid "Classic Editor Button"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:94
+msgid "You can embed your Google Drive documents using the classic editor Google Drive button while you are editing any page/ post."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:112
+msgid "Insert Download/ View Links"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:113
+msgid "You can insert direct links in any page/ post to download and view any Google Drive files. Here also you can insert the direct links to download/ view using two ways. Those are:"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:118
+msgid "To insert any Google Drive files links with the shortcode builder you have to select the File Download Link/ File View Link type."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:121
+msgid "You can also insert any Google Drive files links using the Classic Editor Google Drive button while you are editing any page/ post."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:139
+msgid "User Private Files"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:141
+msgid ""
+"Using Private Files you can easily and securely share your Google Drive documents with your\n"
+"                users/clients. This allows your users/ clients to view, download and manage their documents in their own\n"
+"                private folders."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:145
+msgid "You can also link your users to the specific folders to your Google Drive cloud files."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:147
+msgid "The Private Folders can be useful in some situations, for example:"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:149
+msgid "You want your clients, users or guests upload files to their own folder"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:150
+msgid "You want to share documents with your users/ clients privately"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:151
+msgid "Private Folders can be assigned to a user both automatically or manually."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:152
+msgid "You can assign the folders to the users manually from the Private Folders page."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:155
+msgid "To link the folders for the users, follow the below steps:"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:157
+msgid "Go to Admin Dashboard > Google Drive > Private Folders"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:158
+msgid "Click on the Select Folders button on the users list. Then a new popup dialog will open."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:159
+msgid "Select the folders from the popup dialog."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:160
+msgid "Then click on the Done button on the top of the dialog."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:161
+msgid ""
+"You can also enable the auto creates private folders for each user when a new user is registered\n"
+"                    from\n"
+"                    the Settings page."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:167
+msgid "For displaying the private folders for the users, follow the below steps:"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:169
+msgid "Go to the Shortcode Builder and create a new shortcode module."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:170
+msgid "On the source tab, turn ON the Use Private Folders option."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:171
+msgid "Copy the shortcode and use it any page."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:172
+msgid ""
+"Now, while the users will visit the page they can navigate through the folders that are linked to\n"
+"                    their\n"
+"                    account."
+msgstr ""
+
+#: includes/views/getting-started/data-privacy.php:3
+#: includes/views/getting-started/index.php:63
+msgid "Data Privacy"
+msgstr ""
+
+#: includes/views/getting-started/data-privacy.php:4
+msgid "Information about the Data and Privacy"
+msgstr ""
+
+#: includes/views/getting-started/data-privacy.php:10
+msgid "Plugin authorization flow (OAuth)"
+msgstr ""
+
+#: includes/views/getting-started/data-privacy.php:12
+msgid ""
+"For technical reasons, the short-lived authorization code generated by the OAuth flow sent by your\n"
+"                internet browser to our server as part of the authentication (OAuth) flow to provide the Application\n"
+"                access to the Google Drive API."
+msgstr ""
+
+#: includes/views/getting-started/data-privacy.php:18
+msgid ""
+"The Application obtains the following information when you use the built-in app for authentication and\n"
+"                link the Application with your Google Drive Account:"
+msgstr ""
+
+#: includes/views/getting-started/data-privacy.php:23
+msgid "Your WordPress website address."
+msgstr ""
+
+#: includes/views/getting-started/data-privacy.php:24
+msgid "A short-lived authorization code generated by the OAuth flow."
+msgstr ""
+
+#: includes/views/getting-started/data-privacy.php:28
+msgid ""
+"This information is obtained and used after you decide to grand the Application the requested access via\n"
+"                the Google OAuth consent screen. After giving the consent, you will be redirected to the server of\n"
+"                softlabbd.com (https://softlabbd.com/integrate-google-drive-oauth.php) which will redirect you back to your\n"
+"                own site where the authorization process is finalized. This redirect via the server of softlabbd.com is\n"
+"                required for any easy plugin setup where you don’t need to create your own Google App which also allows\n"
+"                you to set your own Authorized redirect URI. SoftLab Privacy Policy"
+msgstr ""
+
+#: includes/views/getting-started/data-privacy.php:37
+msgid ""
+"On your own server, the short-lived authorization code will be exchanged for the actual access token and\n"
+"                refresh token which are stored, encrypted, on your server. The authorization code can only be used once\n"
+"                and will immediately become inactive after it has been exchanged for the access token or within minutes\n"
+"                if it is not used."
+msgstr ""
+
+#: includes/views/getting-started/data-privacy.php:44
+msgid "IMPORTANT:"
+msgstr ""
+
+#: includes/views/getting-started/data-privacy.php:44
+msgid ""
+"When you use the Application, all other communications are strictly between\n"
+"                your server and the cloud storage service servers. The communication is encrypted and the communication\n"
+"                will not go through our servers. We do not collect and do not have access to your files."
+msgstr ""
+
+#: includes/views/getting-started/data-privacy.php:53
+msgid "Google Permissions for OAuth"
+msgstr ""
+
+#: includes/views/getting-started/data-privacy.php:55
+msgid ""
+"In order for the Application to work seamlessly, Google Drive permission is granted by users during the\n"
+"                standard oAuth authorization flow. Please see their privacy policies for further details"
+msgstr ""
+
+#: includes/views/getting-started/data-privacy.php:60
+msgid ""
+"The Application uses the Google Drive permissions to allow it to see, edit, create, and delete all of\n"
+"                your Google Drive files on your WordPress site. This is the core functionality of the plugin to make the\n"
+"                integration between Google Drive and WordPress as seamless as possible. We ask for the ‘see’ permission\n"
+"                to be able to list your files. The ‘create’ permission is used for uploading new content to your Google\n"
+"                Drive. The other permissions are required to manage your files on Google Drive which includes, renaming,\n"
+"                editing, deleting and sharing your files. Google Drive Privacy Policy and Terms of Use"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:5
+msgid "Easy setup"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:9
+msgid "Dashboard File Browser"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:17
+msgid "Dashboard File Uploader"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:33
+msgid "File Browser - Module"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:37
+msgid "File Uploader - Module"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:41
+msgid "Media Player - Module"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:45
+msgid "Gallery - Module"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:49
+msgid "File Search - Module"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:53
+msgid "Import to Media Library"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:57
+msgid "User Private Files & Folders"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:61
+#: includes/views/getting-started/introduction.php:282
+msgid "Multiple Google Accounts"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:65
+msgid "Use Own Google App"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:73
+msgid "Email Notification"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:77
+msgid "Classic Editor Integration"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:81
+msgid "Gutenberg Integration"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:85
+msgid "Elementor Integration"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:89
+msgid "WooCommerce Integration"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:93
+msgid "Tutor LMS Integration"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:97
+msgid "Easy Digital Downloads Integration"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:101
+msgid "Contact Form 7 Integration"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:105
+msgid "WPForms Integration"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:109
+msgid "Gravity Forms Integration"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:113
+msgid "Fluent Forms Integration"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:117
+msgid "Ninja Forms Integration"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:121
+msgid "Formidable Forms Integration"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:130
+msgid "Unlock the full power of the Google Drive integration with WordPress"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:131
+msgid "The amazing PRO features will make your Google Drive integration even more efficient"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:136
+#: includes/views/getting-started/get-pro.php:145
+msgid "Free"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:137
+msgid "vs"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:138
+#: includes/views/getting-started/get-pro.php:146
+msgid "Pro"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:144
+msgid "Feature List"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:169
+msgid "Don't waste time, get the PRO version now!"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:170
+msgid ""
+"Upgrade to the PRO version of the plugin and unlock all the amazing Google Drive Integration features for\n"
+"                your website."
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:175
+msgid "Upgrade Now"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:182
+msgid "Want to try live demo, before purchase?"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:183
+msgid ""
+"You can try our instant ready-made demo. The demo allows you to experiment with all the functionality of\n"
+"                the plugins on both Front-End and Back-End. Feel free to explore the possibilities and limits of our\n"
+"                plugins to see if it fits your requirements!"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:191
+msgid "Try Live Demo"
+msgstr ""
+
+#: includes/views/getting-started/help.php:5
+msgid "Is there any upload file size limit for the File Uploader module?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:6
+msgid "No, using the File Uploader module you can upload unlimited size of files to your Google Drive."
+msgstr ""
+
+#: includes/views/getting-started/help.php:8
+msgid "Is the files uploaded directly to Google Drive?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:9
+msgid "Yes, the files directly uploaded to the Google Drive and doesn't affect your server storage or performance."
+msgstr ""
+
+#: includes/views/getting-started/help.php:12
+msgid "Can the users share the files using the file links or through email?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:13
+msgid "Yes, Users can share the files links via Direct File link, Email, Facebook, Twitter, and Whatsapp, and also can get embed code to share the file on a web page."
+msgstr ""
+
+#: includes/views/getting-started/help.php:16
+msgid "Can I link a Google Drive folder to a user on my site when they have been registered?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:17
+msgid "Yes, you can link a Google Drive folder to a user on your site when they have been registered. You can also link the private folders to the users manually."
+msgstr ""
+
+#: includes/views/getting-started/help.php:20
+msgid "Can I use multiple Google Drive accounts?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:21
+msgid "Yes, you can link to multiple Google Drive accounts to Integrate Google Drive plugin."
+msgstr ""
+
+#: includes/views/getting-started/help.php:24
+msgid "Are there any usage limits?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:25
+msgid ""
+"There are no bandwidth or file size issues for your web host. If you want to stream any media files (Audio, Video), the files will be streamed directly from Google Drive.\n"
+"<br><br>\n"
+"But, when any zip file will be downloaded, these will be downloaded through your site and can generate some traffic."
+msgstr ""
+
+#: includes/views/getting-started/help.php:30
+msgid "Documents preview not working?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:31
+msgid ""
+"In order to preview documents, the files should have the sharing permission \"Anyone with link can view\". The plugin will automatically change the sharing permission.\n"
+"<br><br>\n"
+"However, in some case the plugin isn't able to manage the sharing permissions even with those setting enabled. In that case, please try to set the sharing permissions manually via the native Google Drive interface."
+msgstr ""
+
+#: includes/views/getting-started/help.php:36
+msgid "How can I insert direct Audio/ Video/ Image files to my page/ post?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:37
+msgid ""
+"To insert any Audio/ Video/ Image files to your page/ post, you have to use the Embed module. You can use the shortcode builder, classic editor, gutenberg editor, elementor or divi page builder to create and display the embed module.\n"
+"<br><br>\n"
+"You just have to enable the \"Direct Media Display\" option from the \"Advanced\" tab, which allows media files to be displayed directly instead of through the embedded player. You can do this while configuring the Embed module."
+msgstr ""
+
+#: includes/views/getting-started/help.php:42
+msgid "Why is the embedded video/audio not working?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:43
+msgid "Sometimes, embedded audio and video files may not play properly. To fix this issue, enable the \"Direct Media Display\" option from the \"Advanced\" tab, which allows media files to be displayed directly instead of through the embedded player. You can do this while configuring the Embed module."
+msgstr ""
+
+#: includes/views/getting-started/help.php:46
+msgid "Why search module search results are slow?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:47
+msgid "The search module search results may take some time to show the search results. The time depends on the number of files that are selected for the search module. If your selected folders for the search module have a lot of children files then the search module search results may take some time to show the search results."
+msgstr ""
+
+#: includes/views/getting-started/help.php:50
+msgid "Can I allow my clients to use the \"Photo Proofing\" feature in the Image Gallery?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:51
+msgid "Absolutely. By turning on the \"Photo Proofing\" option within the gallery module, you empower clients to choose images for downloading or forwarding them to you for additional edits. To activate this feature, navigate to the \"Permissions\" tab during the gallery module setup and select the \"Photo Proofing\" option."
+msgstr ""
+
+#: includes/views/getting-started/help.php:61
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: includes/views/getting-started/help.php:80
+msgid "Need Help?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:81
+msgid "Read our knowledge base documentation or you can contact us directly."
+msgstr ""
+
+#: includes/views/getting-started/help.php:88
+#: includes/views/getting-started/help.php:91
+#: includes/views/getting-started/help.php:97
+msgid "Documentation"
+msgstr ""
+
+#: includes/views/getting-started/help.php:93
+msgid ""
+"Check out our detailed online documentation and video tutorials to find out more about what you can\n"
+"                    do."
+msgstr ""
+
+#: includes/views/getting-started/help.php:104
+msgid "Contact"
+msgstr ""
+
+#: includes/views/getting-started/help.php:107
+msgid "Support"
+msgstr ""
+
+#: includes/views/getting-started/help.php:108
+msgid "We have dedicated support team to provide you fast, friendly & top-notch customer support."
+msgstr ""
+
+#: includes/views/getting-started/help.php:110
+msgid "Get Support"
+msgstr ""
+
+#: includes/views/getting-started/help.php:118
+msgid "Join our Facebook Group"
+msgstr ""
+
+#: includes/views/getting-started/help.php:120
+msgid ""
+"Discuss, and share your problems & solutions for Integrate Google Drive WordPress plugin. Let's make a\n"
+"                better community, share ideas, solve problems and finally build good relations."
+msgstr ""
+
+#: includes/views/getting-started/help.php:128
+msgid "Join Now"
+msgstr ""
+
+#: includes/views/getting-started/index.php:15
+msgid "Complete Google Drive Integration for WordPress"
+msgstr ""
+
+#: includes/views/getting-started/index.php:30
+msgid "Introduction"
+msgstr ""
+
+#: includes/views/getting-started/index.php:38
+msgid "Changelog"
+msgstr ""
+
+#: includes/views/getting-started/index.php:84
+msgid "Help"
+msgstr ""
+
+#: includes/views/getting-started/index.php:102
+msgid "Get PRO"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:5
+msgid "Classic Editor"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:6
+msgid "Add Google Drive module, embed documents and insert file view links and download links using the Google Drive button on the classic editor."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:10
+msgid "Gutenberg Editor"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:11
+msgid "Add Google Drive modules, embed documents and insert file view links and download links using the Google Drive Gutenberg editor blocks"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:15
+msgid "Elementor"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:16
+msgid "Add Google Drive modules, embed documents and insert file view links and download links using the Google Drive Elementor widgets."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:21
+msgid "Divi"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:22
+msgid "Add Google Drive modules, embed documents and insert file view links and download links using the Google Drive Divi Page Builder modules."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:26
+msgid "Advanced Custom Fields"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:27
+msgid "Allows you to select Google Drive files and folders using ACF field and display in theme template file."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:31
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:32
+msgid "You can serve your downloadable product's files directly from Google Drive, and also you can let your customers upload files to your Google Drive account when they purchase your products."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:35
+msgid "Dokan"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:36
+msgid "Allows vendors to serve their Google Drive files as downloadable files and let customer upload files to Google Drive on checkout."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:39
+msgid "Easy Digital Downloads"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:40
+msgid "Allows you to serve your Easy Digital Downloads files directly from Google Drive."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:43
+msgid "Tutor LMS"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:44
+msgid "Allows Instructors to link their Google accounts for efficient and independent course material management."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:47
+msgid "Contact Form 7"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:48
+msgid "Allows you to upload your files directly to Google Drive from your Contact Form 7 upload field."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:51
+msgid "WPForms"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:52
+msgid "Allows you to upload your files directly to Google Drive from your WPForms upload field."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:55
+msgid "Gravity Forms"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:56
+msgid "Allows you to upload your files directly to Google Drive from your Gravity Forms upload field."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:59
+msgid "Fluent Forms"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:60
+msgid "Allows you to upload your files directly to Google Drive from your Fluent Forms upload field."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:63
+msgid "Formidable Forms"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:64
+msgid "Allows you to upload your files directly to Google Drive from your Formidable Forms upload field."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:67
+msgid "Ninja Forms"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:68
+msgid "Allows you to upload your files directly to Google Drive from your Ninja Forms upload field."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:72
+msgid "Elementor Form"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:73
+msgid "Allows effortless file uploads from Elementor PRO Form widget to Google Drive for quick and efficient storage."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:76
+msgid "MetForm"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:77
+msgid "Allows effortless file uploads from MetForm to Google Drive for quick and efficient storage."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:88
+msgid "Quick Overview"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:91
+msgid ""
+"Integrate Google Drive is the best and easy to use Google Drive cloud solution plugin for\n"
+"                WordPress to integrate your Google Drive documents and media directly into your WordPress\n"
+"                Website."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:98
+msgid ""
+"Share your Google Drive cloud files into your site very fast and easily. You can browse, manage,\n"
+"                embed, display, upload, download, search, play, share your Google Drive files directly into your\n"
+"                website without any hassle and coding."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:116
+msgid "Never miss a valuable features"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:117
+msgid "Let's explore the awesome features of the plugin"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:127
+msgid ""
+"You can manage your cloud files from your website using the full-featured file browser of the\n"
+"                    plugin. Manage preview, download, upload, rename, move, delete, permissions per user using\n"
+"                    the file browser. Users can also browse your cloud files using the File Browser."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:147
+msgid ""
+"You and also your users can upload files directly to your Google Drive account from your\n"
+"                    site. You can upload unlimited size of files."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:164
+msgid ""
+"You can play your Google Drive audio & video files with a playlist into your website. Audio and\n"
+"                video can be played in a single player."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:180
+msgid ""
+"You can add a grid lightbox popup gallery of photos and videos in your page/ post using the gallery\n"
+"                    module of the plugin. The gallery will be generated based on the folders, photos and images that you select."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:194
+msgid "With the Slider Carousel module, you can create a beautiful and interactive slider carousel to showcase your Google Drive images, videos, and documents. Simply use the shortcode to embed the slider anywhere on your site."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:209
+msgid ""
+"You can search any of your cloud files from your site and also let the users to search the\n"
+"                    cloud files to view and download."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:223
+msgid ""
+"You can easily embed any Google Drive Cloud files in any post/ page of your WordPress website\n"
+"                directly using this plugin."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:239
+msgid "File Importer"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:241
+msgid ""
+"Import any Google Drive document and media files to your media library by one click and use\n"
+"                    them on any post/ page."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:253
+msgid "File View & Download Links"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:254
+msgid ""
+"You can insert direct links to your post/ page to download/ view your Google Drive cloud\n"
+"                    files."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:267
+msgid "Private Folders"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:269
+msgid ""
+"Using Private Folders you can easily and securely share your Google Drive documents with your\n"
+"                    users/clients. This allows your users/ clients to view, download and manage their documents\n"
+"                    in their own private folders."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:283
+msgid "You can link multiple Google accounts and can use files from the multiple accounts."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:293
+msgid "Powerful Integrations with Popular Plugins"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:294
+msgid "Using this plugin, you can integrate your Google Drive with available popular plugins."
+msgstr ""
+
+#: includes/views/getting-started/what-new.php:540
+msgid "New Features"
+msgstr ""
+
+#: includes/views/getting-started/what-new.php:549
+msgid "Bug Fixes"
+msgstr ""
+
+#: includes/views/getting-started/what-new.php:557
+msgid "Improvements"
+msgstr ""
+
+#: includes/views/getting-started/what-new.php:565
+msgid "Removes"
+msgstr ""
+
+#. Translators: %1$s is the username, %2$s is the site link
+#: includes/views/notification-email__premium_only.php:17
+msgid "%1$s has uploaded the following files to your Google Drive via %2$s"
+msgstr ""
+
+#. Translators: %1$s is the username, %2$s is the site link
+#: includes/views/notification-email__premium_only.php:19
+msgid "%1$s has deleted the following files via %2$s"
+msgstr ""
+
+#. Translators: %1$s is the username, %2$s is the keyword, %3$s is the site link
+#: includes/views/notification-email__premium_only.php:26
+msgid "%1$s has searched for %2$s on the following folders via %3$s"
+msgstr ""
+
+#. Translators: %1$s is the username, %2$s is the site link
+#: includes/views/notification-email__premium_only.php:30
+msgid "%1$s has played the following files via %2$s"
+msgstr ""
+
+#. Translators: %1$s is the username, %2$s is the site link
+#: includes/views/notification-email__premium_only.php:34
+msgid "%1$s has viewed the following files in your Google Drive via %2$s"
+msgstr ""
+
+#. Translators: %1$s is the username, %2$s is the site link
+#: includes/views/notification-email__premium_only.php:38
+msgid "%1$s has downloaded the following files via %2$s"
+msgstr ""
+
+#: includes/views/notification-email__premium_only.php:90
+msgid "Hi There,"
+msgstr ""
+
+#: includes/views/photo-proof-email__premium_only.php:205
+msgid "Hello Admin,"
+msgstr ""
+
+#: includes/views/photo-proof-email__premium_only.php:209
+msgid "You have a new photo selection from: "
+msgstr ""
+
+#: includes/views/photo-proof-email__premium_only.php:224
+msgid "one of your client"
+msgstr ""
+
+#. translators: %s is the shortcode title
+#: includes/views/photo-proof-email__premium_only.php:231
+msgid "for the %s gallery."
+msgstr ""
+
+#. translators: %1$s is the post title
+#: includes/views/photo-proof-email__premium_only.php:246
+msgid "on the %s page."
+msgstr ""
+
+#: includes/views/photo-proof-email__premium_only.php:256
+msgid "Client Message:"
+msgstr ""
+
+#: includes/views/photo-proof-email__premium_only.php:286
+msgid "Download CSV"
+msgstr ""
+
+#: includes/views/photo-proof-email__premium_only.php:312
+msgid "Image"
+msgstr ""
+
+#: includes/views/photo-proof-email__premium_only.php:313
+msgid "Title"
+msgstr ""
+
+#: includes/views/photo-proof-email__premium_only.php:314
+msgid "Link"
+msgstr ""
+
+#: includes/views/photo-proof-email__premium_only.php:336
+msgid "View Image"
+msgstr ""
+
+#. translators: %s is the site name
+#: includes/views/photo-proof-email__premium_only.php:360
+msgid "This email has been generated by Integrate Google Drive plugin at %s"
+msgstr ""
+
+#: includes/views/recommended-plugins.php:188
+msgid "Try out our recommended plugins"
+msgstr ""
+
+#: includes/views/recommended-plugins.php:189
+msgid "Hide From Menu"
+msgstr ""
+
+#: includes/views/recommended-plugins.php:502
+msgid "Are you sure?"
+msgstr ""
+
+#: includes/views/recommended-plugins.php:503
+msgid "If you hide the recommended plugins page from your menu, it won't appear there again. Are you sure you'd like to do it?"
+msgstr ""
+
+#: plugin.php:17
+msgid "You can't access this page"
+msgstr ""
