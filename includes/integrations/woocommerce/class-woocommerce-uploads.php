@@ -32,7 +32,7 @@ class WooCommerce_Uploads {
 
 
 		// Render product page uploader
-		add_action( 'woocommerce_before_add_to_cart_button', [ $this, 'render_product_page_uploader' ] );
+		add_action( 'woocommerce_after_add_to_cart_form', [ $this, 'render_product_page_uploader' ] );
 
 		// Render Order Received Page Upload Box
 		add_action( 'woocommerce_order_item_meta_end', [ $this, 'render_order_received_uploader' ], 10, 3 );
@@ -47,7 +47,7 @@ class WooCommerce_Uploads {
 		add_filter( 'woocommerce_after_cart_item_name', [ $this, 'render_cart_page_uploader' ] );
 
 		// Render checkout page upload box
-		add_action( 'woocommerce_checkout_billing', [ $this, 'render_checkout_uploader' ], 9 );
+		add_action( 'woocommerce_before_order_notes', [ $this, 'render_checkout_uploader' ], 9 );
 
 		// Handle Order Metadata Tags
 		add_action( 'woocommerce_checkout_update_order_meta', [ $this, 'save_checkout_uploads' ], 99, 2 );
@@ -364,22 +364,17 @@ class WooCommerce_Uploads {
 		$product_id = $product->get_id();
 
 		$igd_upload_box_button_text = get_post_meta( $product_id, '_igd_upload_button_text', true );
-		$igd_upload_box_button_text = ! empty( $igd_upload_box_button_text ) ? $igd_upload_box_button_text : __( 'Upload Documents', 'integrate-google-drive' );
+		$igd_upload_box_button_text = ! empty( $igd_upload_box_button_text ) ? $igd_upload_box_button_text : __( 'Upload Videos', 'integrate-google-drive' );
 
 		?>
 
         <div class="igd-wc-upload-wrap">
 
-			<?php
-			if ( is_checkout() ) {
-				echo '<h3>' . __( 'Upload files for ', 'integrate-google-drive' ) . $product->get_title() . '</h3>';
-			}
-			?>
 
-            <button type="button" class="button upload-button">
+            <div type="button" class="button upload-button">
                 <i class="dashicons dashicons-upload"></i>
                 <span><?php echo $igd_upload_box_button_text; ?></span>
-            </button>
+            </div>
 
 			<?php
 
@@ -470,16 +465,17 @@ class WooCommerce_Uploads {
 
 			App::instance( $folder['accountId'] )->rename( $name, $folder['id'] );
 
+            wc_update_order_item_meta( $item_id, '_igd_upload_folder', $folder );
 			// Create folder for each item
-			if ( count( $items ) > 1 ) {
-				$item_folder_name = __( 'Files of ', 'integrate-google-drive' ) . $product->get_title();
-
-				$new_folder = Uploader::instance( $folder['accountId'] )->create_entry_folder_and_move( $files, $item_folder_name, $folder, true );
-
-				wc_update_order_item_meta( $item_id, '_igd_upload_folder', $new_folder );
-			} else {
-				wc_update_order_item_meta( $item_id, '_igd_upload_folder', $folder );
-			}
+//			if ( count( $items ) > 1 ) {
+//				$item_folder_name = __( 'Files of ', 'integrate-google-drive' ) . $product->get_title();
+//
+//				$new_folder = Uploader::instance( $folder['accountId'] )->create_entry_folder_and_move( $files, $item_folder_name, $folder, true );
+//
+//				wc_update_order_item_meta( $item_id, '_igd_upload_folder', $new_folder );
+//			} else {
+//				wc_update_order_item_meta( $item_id, '_igd_upload_folder', $folder );
+//			}
 
 		}
 	}
